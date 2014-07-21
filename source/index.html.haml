@@ -1,13 +1,55 @@
 ---
-title: Welcome to Middleman
+title: Eurucamp 2013 Videos
 body_class: index
 ---
 
+- speakers = data.speakers.sort_by {|speaker| speaker.name }
+
 %article
   %header
-    %h2
-      Welcome
-  %section
-    %p
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    /
+      %h2
+        Eurucamp 2013
+  %ul.videos
+    - speakers.each_with_index do |speaker, index|
+      - if true
+        %li(id="talk-2013-#{speaker.twitter}")
+          .header
+            %h3
+              %figure
+                = image_tag "content/speakers/#{speaker.image}", :width => 80, :height => 80
+              = speaker.name
+              = link_to "https://github.com/#{speaker.github}" do
+                = image_tag "layout/icons/github.png", :width => 20, :height => 20
+              = link_to "https://twitter.com/#{speaker.twitter}" do
+                = image_tag "layout/icons/twitter.png", :width => 20, :height => 20
+
+          .video-container
+            %video(width="800" height="480" preload="auto" style="width:100%;height:100%")
+              %source(type="video/mp4" src="videos/sample.mp4")
+
+          %h2
+            = speaker.talk_title
+
+          .column.speaker
+            .bio
+              :markdown
+                #{speaker.bio}
+
+          .column.talk
+            .summary
+              :markdown
+                #{speaker.talk_summary}
+
+%aside
+  %ul
+    %li
+      %strong
+        Eurucamp 2013 / Talks
+      %ul
+        - speakers.each do |speaker|
+          %li
+            %a(href="#talk-2013-#{speaker.twitter}")
+              = image_tag "content/speakers/#{speaker.image}", :width => 30, :height => 30
+              %span.speaker= speaker.name
+              %span.talk= speaker.talk_title

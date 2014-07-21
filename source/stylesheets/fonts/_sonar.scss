@@ -1,0 +1,12 @@
+$sonar: (
+  ('SonarLight',    'light',    100, normal),
+  ('SonarNormal',   'normal',   400, normal),
+  ('SonarMedium',   'medium',   500, normal),
+  ('SonarSemibold', 'semibold', 600, normal),
+  ('SonarBold',     'bold',     700, normal)
+);
+
+@each $cut in $sonar {
+  $path: unquote($fonts-path + 'sonar-' + nth($cut, 2) + '-webfont');
+  @include font-face(nth($cut, 1), '#{$path}', nth($cut, 3), nth($cut, 4), $asset-pipeline);
+}

@@ -1,0 +1,730 @@
+-
+  name:         Roy Tomeij
+  company:      AppSignal
+  company_url:  https://appsignal.com/
+  twitter:      roy
+  github:       roytomeij
+  image:        rtomeij.jpg
+  url:          http://roytomeij.com/
+  track:        main
+  show_on_front_page: false
+  bio:          |-
+    Roy is co-founder of [AppSignal](https://appsignal.com/), an error tracking and performance
+    monitoring tool for Ruby on Rails apps. He has over 10 years of
+    entrepreneurial experience and is currently also involved with 80beans,
+    SliceCraft and various start-ups as co-founder, investor or front-end
+    architect.
+  talk_title: Always Be Closing
+  talk_type: 30min
+  talk_summary: |-
+    Whether you want it or not, you're the constant victim of neuro-marketing.
+    Understand the unconscious reasons for your online actions, and how to
+    apply psychology-meets-UX to your own apps.
+
+    I assume there are a lot of attendees who work on their own startups, have
+    to advice on UX or are just interested in the human mind. Is it a Ruby
+    talk? No. Is it interesting to web developers and humans in general?
+    Definitely!
+
+-
+  name:         Florian Plank
+  company:
+  company_url:
+  twitter:      polarblau
+  github:       polarblau
+  image:        fplank.jpg
+  url:          http://www.polarblau.com/
+  track:        main
+  show_on_front_page: false
+  bio:          |
+    Florian solves problems on the open web. He works with his tiny software
+    shop Polarblau somewhere close to the polar circle for companies of all
+    sizes around the globe. Between gigs he builds [please revise!](http://pleaserevise.com)
+
+    Florian prefers Ruby over PHP, Coffeescript over Javascript, beer over
+    bubbly, open source over proprietary software, bike over car, work over
+    meetings, small over big, action over talk, learning over degrees and his
+    family over everything.
+  talk_title: Beautiful Rubyist
+  talk_type: 30min
+  talk_summary: |
+    We — as Rubyists — have proven to be perceptible to aesthetics through our
+    choice of (primary) programming language.
+
+    In our daily work we often have to touch user interfaces — on the web,
+    desktop and mobile apps or even in API definitions. And while we might
+    sometimes secretly enjoy working so close to the user and out in the open,
+    visible to everyone, we do so rarely with confidence.
+
+    It’s time to gain some confidence! This talk will attempt to bring visual
+    aesthetics and code together and to explain some of the most fundamental
+    rules of art and visual design *through Ruby*: Using Ruby idioms, patterns
+    and syntax we will try to clarify basics like hierarchy, composition,
+    contrast and proportion using everyday interface–related problems as
+    examples and hopefully take on an interesting journey through language,
+    design and code.
+
+-
+  name:         Ellen König
+  company:
+  company_url:
+  twitter:      ellen_koenig
+  github:       EllenKoenig
+  image:        ekoenig.jpg
+  url:
+  track:        main
+  show_on_front_page: false
+  bio:          |-
+    Ellen is a professional software developer and part-time psychology
+    student. She has a particular interest in where IT and psychology topics
+    intersect, including team work and collaboration, learning and problem
+    solving, and analysis of online behavior. She has successfully lead several
+    mid-sized and large volunteer IT teams, and has been a member of even more
+    of them (work and volunteer teams). She loves learning and teaching about
+    technology-related topics, having learned more programming languages and
+    technologies than she cares to remember. She has taught them to others at
+    various opportunities such as university, work and most recently as a Rails
+    Girls student and coach.
+  talk_title: Practice makes perfect? - How to develop your technical skills the effective way
+  talk_type: 15min
+  talk_summary: |-
+    In our software development jobs, we frequently find ourselves applying and
+    polishing existing skills rather than expanding into new ones. Yet with
+    technology always changing and developers being eternally curious, we need
+    effective learning skills to master new subjects effectively. Psychologist
+    have identified the principles of what it takes to master new skills:
+    Challenge, clear goals, feedback, repetition, concentration. In my talk I
+    would like to show how these principles can be applied to learning learning
+    different programming languages, frameworks and technologies as well as
+    software development methods using examples for learning goals, feedback
+    mechanism and repetition strategies.
+
+-
+  name:         Drew Neil
+  company:
+  company_url:
+  twitter:      nelstrom
+  github:       nelstrom
+  image:        dneil.jpg
+  url:          http://drewneil.com/
+  track:        main
+  show_on_front_page: false
+  bio:          |
+    Drew is an independent programmer, writer, and trainer. He runs workshops
+    around the world, speaks regularly at conferences, and specializes in
+    making educational screencasts. At [vimcasts.org](http://vimcasts.org/), he
+    publishes articles and video tutorials about Vim. He is the author of the
+    Pragmatic Bookshelf title, [Practical Vim](http://pragprog.com/book/dnvim/practical-vim).
+  talk_title: Modelling state machines with Ragel
+  talk_type: 30min
+  talk_summary: |
+    [Ragel](http://www.complang.org/ragel/) is a *State Machine Compiler*,
+    which can generate Ruby code (as well as C, Java, Go, and more). It can be
+    used for writing robust protocol implementations, parsing data formats, and
+    performing lexical analysis of programming languages. Ragel is used in many
+    open source projects including
+    [Gherkin](https://github.com/cucumber/gherkin/blob/master/ragel/lexer_common.rl.erb),
+    [Thin](https://github.com/macournoyer/thin/blob/master/ext/thin_parser/parser.rl),
+    [Min](https://github.com/macournoyer/min/blob/master/src/min/lang/Scanner.rl),
+    [Mongrel](https://github.com/mongrel/mongrel/blob/master/ext/http11/http11_parser_common.rl),
+    [Redcloth](https://github.com/jgarber/redcloth/tree/master/ragel),
+    [Radiant](https://github.com/jlong/radius/blob/master/lib/radius/parser/JavaScanner.rl),
+    and [Hpricot](https://github.com/hpricot/hpricot/blob/master/ext/hpricot_scan/hpricot_common.rl).
+
+    To demonstrate Ragel's capabilities we'll model Vim, which is a Finite
+    State Machine. We'll do so by parsing a stream of Vim keystrokes, using
+    Ragel state machines to manage the transitions between Vim's modes. We'll
+    see how to generate state chart visualisations with Ragel, and how these
+    can be used to debug our state machines. The resulting program will enable
+    us to analyse and visualise the interactions of a Vim user.
+
+-
+  name:         Juanjo Bazán
+  company:      ProRuby
+  company_url:  http://www.prorubyteam.com
+  twitter:      xuanxu
+  github:       xuanxu
+  image:        jbazan.jpg
+  url:          https://twitter.com/xuanxu
+  track:        main
+  show_on_front_page: false
+  bio:          |-
+    Juanjo works as freelance web developer and is a member of the awesome
+    [ProRuby team](http://prorubyteam.com). He cofounded the Madrid RUG and was
+    part of the organization of the EuRuKo '09 held in Barcelona. In his spare
+    time he likes to add
+    [methods that do nothing](https://github.com/rails/rails/commit/8270e4a8ce8337fca98030953922e5992b06a3dd)
+    to the Rails codebase. As an [Open Science](http://en.wikipedia.org/wiki/Open_science)
+    advocate he has contributed code to research projects in fields as diverse
+    as astrophysics, genomics or sociology.
+  talk_title: Ruby + Science = Fail ?
+  talk_type: 30min
+  talk_summary: |-
+    It doesn't matter the science field, nowadays every research needs some
+    kind of programming task to analize or mix or produce results.
+
+    But when faced with a computational problem, scientists without programming
+    background often choose Java, Python, R, Excel… to scratch their itch, why
+    not Ruby?
+
+    Why scientists and people in academia and research centers are not using
+    Ruby?
+
+    What can we do to make Ruby the language of preference in science? Is that
+    even possible?
+
+    I'll ask you these questions and try to answer them in this talk.
+
+-
+  name:         Piotr Szotkowski
+  company:
+  company_url:
+  twitter:      chastell
+  github:       chastell
+  image:        pszotkowski.jpg
+  url:          http://chastell.net/
+  track:        main
+  show_on_front_page: false
+  bio:          |-
+    Piotr is a hacker scientist: an assistant professor at Warsaw
+    University of Technology, a Ruby developer at [Rebased](http://rebased.pl)
+    and a founding member of [Warsaw Hackerspace](https://hackerspace.pl). When
+    not coding (or [talking about coding](http://talks.chastell.net)) he
+    organises [Warsaw Ruby Users Group](http://wrug.eu) and
+    [NetWtorek](http://netwtorek.pl) – monthly meetings of people from the
+    NGO/non-profit and IT sectors, as well as [SocHack](http://sochack.pl)
+    – quarterly 48-hour hackatons for worthy causes, in coordination with
+    [Random Hacks of Kindness](http://www.rhok.org),
+    [Open Data Day](http://opendataday.org) and
+    [Open Education Week](http://www.openeducationweek.org).
+  talk_title: They hear me typin’, they hatin’
+  talk_type: 15min
+  talk_summary: |-
+    Mechanical keyboard, how do I love thee?
+    Let me count the ways… \<clickety\> \<click\> \<clee\>
+
+    As programmers we spend a significant amount of our time typing, and
+    – given the abundance of laptops – we often do it on whatever keyboard was
+    chosen by our hardware’s manufacturer. While certain laptop brands are
+    known to have stellar keyboards (and no less famous pointing devices), some
+    of us yearn for the good old times of
+    [IBM Model M](https://en.wikipedia.org/wiki/Model_M_keyboard); yes, you
+    could hear them from across the building, but once you played with one or
+    some time you grew way more tolerant of its constant – if not distant –
+    clicking.
+
+    This talk covers the current state of the mechanical keyboard world, the
+    replacable keycap craze and all the fun you can possibly squeeze out of
+    your daily fingertip companion – including some tips on how to configure
+    your system to easily input all the weird characters needed now and then,
+    from ♥ and ‰ to mëtäl ümläuts and ☭.
+
+-
+  name:         Michael Grosser
+  company:      Zendesk
+  company_url:  http://www.zendesk.com/
+  twitter:      grosser
+  github:       grosser
+  image:        mgrosser.jpg
+  url:          http://www.grosser.it/
+  track:        main
+  show_on_front_page: false
+  bio:          |-
+    Michael started working in Berlin and later moved to San Francisco where he
+    joined Pivotal Labs and then Zendesk.
+
+    He enjoys building open-source projects and spam rubygems.orb with his
+    sometimes crazy ideas, he enjoys creating/forking/collaborating on OS
+    software and already had his hand in 200+ github projects, some of the best
+    know are parallel_tests/parallel/pru/smusher/fast_gettext.
+  talk_title: Debugging production
+  talk_type: 30min
+  talk_summary: |-
+    The most fun errors happen in production and reproducing them is often a
+    pain. Especially if you are maintaining a giant app with ton's of moving
+    parts that is prone to race conditions and complicated account specific
+    settings. I'll present 4 tools to help with that and how we use them at
+    Zendesk.
+
+-
+  name:         Markus Schirp
+  company:
+  company_url:
+  twitter:      _m_b_j_
+  github:       mbj
+  image:        mschirp.jpg
+  url:
+  track:        main
+  show_on_front_page: false
+  bio: |-
+    Markus is a highly active Open Source [commiter](https://github.com/mbj),
+    who wrote the [mutant](https://github.com/mbj/mutant) tool. We will have
+    the honnor to welcome this DataMapper2 Core Developer for his first talk
+    ever.
+
+    This auto-didact, who proudly quit the university without a degree, has
+    been self-employed for ten years.
+  talk_title: Can we write perfect tests? - Maybe!
+  talk_type: 15min
+  talk_summary: |-
+    Why mutation testing is as a game changer for unit tests.
+
+    The pros of a solid unit test suite are well understood and accepted in the
+    ruby community. The problem: How to define ***solid***? Traditional metrics
+    like line-coverage, branch-coverage and even statement-coverage can be
+    misleading. Having a statement executed once does not mean all edge cases
+    are specified and bug-free!
+
+    Automated tools can be used to identify uncovered edge cases that will
+    introduce bugs into your program.
+
+    Mutation testing brings fuzzing to the implementation level. Unlike input
+    fuzzing it modifies the implementation to check if the test suite can
+    detect a huge set of automatically introduced behaviour changes.
+
+    This talk will elaborate the history of testing and the metrics that are
+    used to define coverage. And how such metrics can and have misguided
+    developmentdirection.
+
+    It will also show examples of projects that heavily adopted mutation
+    testing. Especially the long term effects and how the (mutation)-metrics
+    driven approach improved developer happiness and code stability. Showing
+    what kind of actual bugs where caught and how code became naturally
+    streamlined.
+
+    Lastly the current and future limits of existing mutation testing tools
+    will be presented.
+
+    Do not miss it!
+
+    Tools mentioned: [mutant](https://github.com/mbj/mutant) (focus here),
+    [heckle](https://github.com/seattlerb/heckle) (for history)
+
+-
+  name:         Vicent Martí
+  company:      GitHub
+  company_url:  http://www.github.com
+  twitter:      vmg
+  github:       vmg
+  image:        vmarti.jpg
+  url:
+  track:        main
+  show_on_front_page: false
+  bio: |-
+    Vicent used to make videogames, but he sold out because he likes to wear
+    expensive clothes. Or any clothes at all. He now works full time as a
+    systems engineer at GitHub, focusing on security and performance issues on
+    the backend. He's also the maintainer of libgit2, the Git library that
+    powers GitHub's backend and native clients. He takes long showers because
+    he enjoys smelling nice.
+  talk_title: Once Upon a Time, Ruby
+  talk_type: 30min
+  talk_summary: |-
+    This talk looks like a fairy tale, but it is actually a scary talk about
+    scary Ruby internals. Disregard the fairy tale, actually. There's a lot
+    going on under the hood in MRI, YARV and Rubinius. The C and C++ layer that
+    interacts with the OS is a tangly mess full of tricky bugs and arcane
+    issues; the kind of issues that don't raise exceptions, but kill whole
+    processes and make them bleed rainbows. This is a talk about how we
+    discover, tackle and fix these kind of issues in the design of MRI at our
+    company, to ensure that our infrastructure (one of the largest Ruby
+    deployments in the world) is always up and serving requests.
+
+-
+  name:         Arne Brasseur
+  company:
+  company_url:
+  twitter:      plexus
+  github:       arnebrasseur
+  image:        abrasseur.jpg
+  url:          http://devblog.arnebrasseur.net/
+  track:        main
+  show_on_front_page: false
+  bio:          |-
+    Arne is a professional software developer focused on web development.
+    He's been passionate about Ruby since 2006, but has only really become
+    involved in the community after moving to Berlin in 2012.
+
+    He has worked in various fields, from e-commerce for telecom, concert
+    tickets and resale, to medical OCR/OMR applications, and has made
+    contributions to several Free and Open Source projects. His personal
+    interests include both natural and formal languages, and he spent the best
+    of two years in the far east learning to speak and write Chinese.
+  talk_title: 'Web Linguistics : Towards Higher Fluency'
+  talk_type: 30min
+  talk_summary: |-
+    Plain text strings are the bread and butter of web programming. When
+    programming for the web one juggles an amazing amount of different
+    languages. However, these strings that we generate are actually plain text
+    representations of data structures. They need to be serialized to be sent
+    over the wire, but that doesn't need to happen until the data leaves the
+    application.
+
+    Instead we often end up generating and manipulating textual representations
+    directly. This may seem easier at first, but keeping in mind the subtleties
+    of the representation is hard work, and slipping up can cost us dearly,
+    just think of SQL injection attacks or cross-site scripting.
+
+    Security isn't the only reason to rethink how we deal with plain text I/O
+    in our apps. By manipulating data structures rather than strings, we could
+    be coding and reasoning at a higher level.
+
+    In this talk you will get a critical assessment of how Ruby apps tend to
+    deal with parsing and generating web related languages. It will make you
+    think, and look at your old code with new eyes. We will have a look at what
+    tooling is there, and which parts are missing, showing practical examples
+    of how you could be doing things differently.
+
+-
+  name:         Matthias Viehweger
+  company:
+  company_url:
+  twitter:      der_kronn
+  github:       kronn
+  image:        mviehweger.jpg
+  url:          http://kronn.de/
+  track:        main
+  show_on_front_page: false
+  bio:          |-
+    Matthias learned about the internet as a place to put content into. So he
+    became a writer and web designer. Then he quickly got sucked into
+    programming and databases. Things got even more exciting and rewarding with
+    Ruby, PostgreSQL and Vim. Nowadays, he freelances and maintains the Linux
+    boxes for Rails apps using Puppet.
+  talk_title: How to log without upsetting your team
+  talk_type: 15min
+  talk_summary: |-
+    There are situations in which you need to know more about an error. One of
+    the standard tools in such situations is logging. With the presence of the
+    production.log it's tempting to just pour messages in there.
+
+    Now you have a bigger log and put that burden on the whole team.
+
+-
+  name:         Joanne Cheng
+  company:      thoughtbot
+  company_url:  http://www.thoughtbot.com/
+  twitter:      joannecheng
+  github:       joannecheng
+  image:        jcheng.jpg
+  url:          http://about.me/joannecheng
+  show_on_front_page: false
+  track:        main
+  bio:          |-
+    Joanne is currently a developer for thoughtbot in Denver, CO. In her spare
+    time, she runs Colorado Code for Communities, an organization of developers
+    and designers dedicated to making important local government data easily
+    accesible through better interfaces.
+  talk_title: Creativity with Ruby-Processing
+  talk_type: 30min
+  talk_summary: |-
+    Ruby-Processing is a simple wrapper for the Processing framework that
+    combines the visual-driven environment of Processing with the fun of
+    writing Ruby. In this talk, we'll go through the ways to "sketch" with
+    Ruby-Processing with live coding examples. Through creativity, we can
+    increase the breadth of problems we can solve in our day to day jobs.
+
+-
+  name:         Floor Drees
+  company:      usersnap
+  company_url:  http://usersnap.com
+  twitter:      floordrees
+  github:       FloorD
+  image:        fdress.jpg
+  url:          http://floordrees.tumblr.com
+  track:        main
+  show_on_front_page: false
+  bio:          |-
+    Floor moved from Rotterdam to Vienna almost two years ago. After working as
+    a community manager for over 5 years she missed 'making stuff'. She started
+    learning Rails and Ruby in August last year and is now confident with CSS
+    and Rails (and PHP). Nowadays she organises Rails Girls events (in Rotterdam
+    in January this year and in
+    [The Hague](http://www.twitter.com/railsgirls_DH), September later this
+    year), works as a tech reporter for inventures.eu and a developer
+    evangelist at usersnap.com AND is the co-organizer of
+    [vienna.rb](http://www.vienna-rb.at), the Ruby user group in Vienna.
+    She [blogs](http://floordrees.tumblr.com) a lot too.
+  talk_title: What I learned learning Rails
+  talk_type: 15min
+  talk_summary: |-
+    Learn Rails they said. It's easy they said. I experienced learning Rails as
+    everything but easy. It seemed that with every step I was slapped in the
+    face with a new gem, exception or a whole new programming language. In my
+    talk I'd like to share my learnings, being somewhat confident with Rails
+    after starting learning programming in the evening hours August last year.
+    I'd like to offer the developers attending a different view on what is too
+    self-evident for them to adapt their vocabulary. I strongly believe
+    teaching makes you a better programmer and (in my case) teaching
+    accelerates your own learning curve.
+
+-
+  name:         Harry Brundage
+  company:      Shopify
+  company_url:  http://www.shopify.com/
+  twitter:      harrybrundage
+  github:       hornairs
+  image:        hbrundage.jpg
+  url:          http://harry.me/
+  track:        main
+  show_on_front_page: false
+  bio: |-
+    Harry leads the Performance Team at Shopify! Super fun. They have an
+    enormous Rails application who's traffic at least doubles every year and
+    processes a whole whackload of money for real people running real
+    businesses. His team and he strives to make it faster by obsessing over
+    every little bit of our stack.
+
+    He also likes blogging, but "sucks at making things look nice", which you
+    can see here: http://harry.me :)
+  talk_title: All is Fair in Love, War, and Liquid
+  talk_type: 30min
+  talk_summary: |-
+    A thrilling, down to the wire story of the all out battle to scale Shopify
+    in the face of Impending Doom
+
+    Shopify powers 52000 active e-commerce stores and processes over 3 million
+    dollars a day on their behalf. Yet, when confronted by a superstore running
+    pathologically large flash sales, the platform was brought to its knees.
+    Previous to this store's arrival our highest traffic day was the biggest
+    online shopping event of the year: Cyber Monday. This store waltzed in and
+    on a random Thursday *single handedly* held a flash sale which quintupled
+    our previous platform wide traffic peak set by Cyber Monday, all on their
+    own. This talk is the story of the all out war Shopify fought to scale to
+    meet the needs of this shop, while keeping the other 51999 stores
+    thriving just the same.
+
+-
+  name:         Matt Patterson
+  company:
+  company_url:
+  twitter:      fidothe
+  github:       fidothe
+  image:        mpatterson.jpg
+  url:          http://reprocessed.org/
+  track:        main
+  show_on_front_page: false
+  bio:          |-
+    Matt is a freelance web developer living in Berlin, he has been building
+    for the web for more than 10 years. A full-stack developer, he has been
+    involved with projects as varied as critically acclaimed indie videogame
+    International Racing Squirrels, prototpying data visualisations of the
+    evolution of literary texts like Wordsworth's poem The Prelude in
+    Javascript, and helping the UK government reboot its approach to the web
+    as part of the GOV.uk Alpha and Beta team. He co-coaches the Ruby
+    Monsters, a study group born out of Rails Girls Berlin, with Sven Fuchs.
+  talk_title: Back in the day - parsing real-world fuzzy dates with Ruby
+  talk_type: 30min
+  talk_summary: |-
+    Dates are easy, in the abstract. Then I started working on a project where
+    I had to parse dates like 'mid 1930s' from large chunks of prose.
+
+    Once I'd stopped gibbering I realised that there's nothing wrong with a
+    date like 'mid 1930s' - people talk about dates with varying degrees of
+    precision all the time. The question is, how do you meaningfully parse
+    them?
+
+    These kinds of dates – from almost-complete dates like 'January 2013', to
+    very vague decade dates like 'circa 2000s' – have several kinds of
+    precision, including the sureness of the date (definitely January 2013,
+    maybe January 2013), the possible range of the date (January 2003 – 2003 –
+    2000s), and whether a date represents a point in time (a single event that
+    happened some time in the 2000s) or a span of time (manufactured during the
+    2000s).
+
+    In this talk I'll take you through what I discovered about how people write
+    dates, how I went about parsing them, and what to do with them once you
+    have a representation of them as data. We'll have particular fun addressing
+    questions like 'Which is earlier, spring 1930 or mid 1930?', 'where does
+    Winter come?', and looking at the concrete things I was able to do with a
+    bunch of wooly dates.
+
+-
+  name:         James Coglan & Tom Stuart
+  company:      songkick
+  company_url:  http://www.songkick.com/
+  twitter:      jcoglan
+  github:       jcoglan
+  image:        jcoglan.jpg
+  url:          http://jcoglan.com/
+  track:        main
+  show_on_front_page: true
+  bio: |-
+    James is a full-stack web developer at London live music startup Songkick.
+    He also works on a number of open-source Ruby and JavaScript projects
+    including the popular pub/sub system Faye.
+
+    James will be joined by Tom Stuart for this taks.
+
+    Tom works in Berlin as a backend developer for Soundcloud and spends a
+    decent chunk of his spare time teaching beginners to program with Ruby. He
+    is a known curmudgeon and often wishes he were a philosophy teacher.
+  talk_title: Removing query methods saved my code
+  talk_type: 30min
+  talk_summary: |-
+    Watch and learn as one lost philosopher and one programmer discover why
+    removing getter methods from your objects makes them easier to use and
+    easier to change -- not just in theory but in practice too.
+
+-
+  name:         Justine Arreche
+  company:
+  company_url:
+  twitter:      SaltineJustine
+  github:
+  image:        jarreche.jpg
+  url:          http://hellojustine.com/
+  track:        main
+  show_on_front_page: true
+  bio: |-
+    Justine is a graphic and interaction designer. Through the years she's
+    worked on a range of design projects from conference websites to security
+    software interfaces. Living and breathing design, she firmly believes that
+    designers and developers can work hand in hand without wanting to kill the
+    other. It's about understanding and process.
+  talk_title: |-
+    Put Away the Knives: We Can Work Together
+  talk_type: 30min
+  talk_summary: |-
+    Working hand in hand, programmers and designers, is commonly a pain point.
+    Between miscommunication, unfulfilled expectations and inability to
+    understand what the other is asking there are a lot of projects made more
+    complicated than they need to be, thus resulting in missed deadlines and
+    aggravations.
+
+    In this talk we'll discuss some best practices for the relationship between
+    designers and developers a stable and structured process that helps both of
+    you create great things for the world and making you both happy. It all
+    boils down to communication process and using the right resources to
+    achieving that type of dialogue.
+
+-
+  name:         Ashe Dryden
+  company:
+  company_url:
+  twitter:      ashedryden
+  github:       ashedryden
+  image:        adryden.jpg
+  url:
+  track:        main
+  show_on_front_page: true
+  bio:          |-
+    Ashe Dryden is an indie developer living in Madison, WI. She's been
+    involved with the web in some form or another over the course of the past
+    12 years. Ashe is known for being outspoken about the need for diversity,
+    inclusiveness, and empathy. She's currently writing a book on increasing
+    diversity within companies. When she isn't discussing technology or it’s
+    intersection with culture, she's cycling, tweeting, playing board games,
+    debating the social implications of Star Trek episodes, being that awkward
+    girl at the party, and waiting for her next burrito fix.
+  talk_title: Programming Diversity
+  talk_type: 30min
+  talk_summary: |-
+    It's been scientifically proven that more diverse communities and workplaces create
+    better products and the solutions to difficult problems are more complete and diverse
+    themselves. Companies are struggling to find adequate talent. So why do we see so few women,
+    people of color, and LGBTQ people at our events and on the about pages of our websites?
+    Even more curiously, why do 60% of women leave the tech industry within 10 years? Why are
+    fewer women choosing to pursue computer science and related degrees than ever before? Why
+    have stories of active discouragement, dismissal, harassment, or worse become regular news?
+
+    In this talk we’ll examine the causes behind the lack of diversity in our communities, events,
+    and workplaces. We’ll discuss what we can do as community members, event organizers,
+    and co-workers to not only combat this problem, but to encourage positive change by
+    contributing to an atmosphere of inclusivity.
+
+      * Educate about the lack of diversity and why it is a problem
+      * Examine what is contributing to both the pipeline issue as well as attrition
+      * Isolate what is and isn't working
+      * Inspire direct action by examining our own behavior and learning more about the people around us so we can empathize better
+
+-
+  name:         Joshua Ballanco
+  company:      Burnside Digital
+  company_url:  http://www.burnsidedigital.com/
+  twitter:      manhattanmetric
+  github:       jballanc
+  image:        jballanco.jpg
+  url:
+  track:        main
+  show_on_front_page: true
+  bio:          |-
+    Joshua has worked with Objective-C since 2002 and Ruby since 2004. He has
+    built operating systems with Apple, local news websites with AOL, and
+    somehow managed to finish a Ph.D. along the way.
+
+    Currently, Joshua is Chief Scientist at Burnside Digital where he works
+    with an amazing team of engineers and designers to solve problems for a
+    wide range of clients.
+  talk_title: Getting Your Ruby EGOT
+  talk_type: 30min
+  talk_summary: |-
+    Know what's cooler than contributing to Ruby? Contributing to JRuby! and
+    Rubinius! and MacRuby, IronRuby, Topaz, and Maglev! There sure are a lot of
+    different Ruby implementations, but at the end of the day they're all Ruby,
+    right?
+
+    In this talk, we'll look at the similarities and differences between
+    the various implementations of Ruby. How are objects represented in memory?
+    How are methods called? By the end, you should leave with a Ruby
+    Implementation Rosetta Stone that you can use to understand, and maybe even
+    fix, bugs across the many Ruby implementations.
+
+-
+  name:         Jan Krutisch
+  company:
+  company_url:
+  twitter:      halfbyte
+  github:       halfbyte
+  image:        jkrutisch.jpg
+  url:          http://jan.krutisch.de/
+  track:        main
+  show_on_front_page: true
+  bio:          |-
+    Jan is a freelance web developer from Hamburg, Germany. He is constantly
+    oscillating between frontend and backend technologies and is currently
+    working for a number of clients in the publishing sector. He loves making
+    and programming music and couldn't be happier about the web platform
+    becoming more and more capable in all areas. teh futare si now!
+
+    Here's an [incomplete list of the talks he's given throughout the last years](http://jan.krutisch.de/speaking.html)
+    and a [book he's currently writing](http://leanpub.com/tspa_jumpstart).
+  talk_title: 10 Things you didn't know your browser could do
+  talk_type: 30min
+  talk_summary: |-
+    Did you know you can parse binary files in JavaScript? Did you know that
+    your browser can make music (and I don't mean by playing back sound files)?
+
+    The Web Platform is currently evolving into a full fledged application
+    platform at an ever increasing speed and as most of us are web developers
+    of sorts, it's good to know what's actually possible, but also increasingly
+    hard to keep track of. Let me show you a few awesome things that we can use
+    now or will be able to do so in the near future. And hopefully blow your
+    mind.
+
+-
+  name:         Joseph Wilk
+  company:      SoundCloud
+  company_url:  http://soundcloud.com/
+  twitter:      josephwilk
+  github:       josephwilk
+  image:        jwilk.jpg
+  url:
+  track:        main
+  bio:          |-
+    Joseph is a senior developer at SoundCloud helping shape the future of
+    music on the Internet.
+  talk_title: Can machines be creative?
+  talk_type: 30min
+  talk_summary: |-
+    Creativity exists in the world of romance, a hard target for machines. What
+    does it mean for a machine to be creative, are they artists and is their
+    work art?
+
+    Could you distinguish between a machine’s creative attempts and a humans?
+    What makes you think you are creative in the first place?
+
+    We will start our journey down the path of discovering a new generation of
+    AI artists born through code. We will look into their hearts and brains
+    examining different algorithms/techniques and there effectiveness at
+    exhibiting creativeness.
